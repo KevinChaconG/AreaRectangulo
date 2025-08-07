@@ -24,3 +24,11 @@ const calcular = () =>{
     
     document.getElementById("resultado").value=area
 }
+
+const limpiar = () =>{
+
+    document.getElementById("valorW").value=""
+    document.getElementById("valorH").value=""
+    document.getElementById("resultado").value=""
+
+}
