@@ -12,8 +12,8 @@ const calcular = () =>{
         
     }
     
-    else if(strH === "0" || strW ==="0"){
-        alert("Los campos de Largo y Ancho no pueden ser cero")
+    else if(strH <=0 || strW <=0 ){
+        alert("Los campos de Largo y Ancho no pueden ser igual o menor a cero")
 
         return
         
